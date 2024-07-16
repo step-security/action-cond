@@ -1,9 +1,5 @@
 # Conditional value - missing expression for GitHub Actions
 
-[![test](https://github.com/step-security/action-cond/workflows/test/badge.svg)](https://github.com/step-security/action-cond/actions?query=workflow%3Atest)
-[![reviewdog](https://github.com/step-security/action-cond/workflows/reviewdog/badge.svg)](https://github.com/step-security/action-cond/actions?query=workflow%3Areviewdog)
-[![release](https://github.com/step-security/action-cond/workflows/release/badge.svg)](https://github.com/step-security/action-cond/actions?query=workflow%3Arelease)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/step-security/action-cond?logo=github&sort=semver)](https://github.com/step-security/action-cond/releases)
 
 ```yaml
 inputs:
