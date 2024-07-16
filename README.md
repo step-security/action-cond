@@ -24,7 +24,7 @@ outputs:
 
 ```yaml
 steps:
-- uses: step-security/action-cond@v1
+- uses: step-security/action-cond@v1.2.1
   id: condval
   with:
     cond: ${{ github.event_name == 'pull_request' }}
@@ -42,7 +42,7 @@ https://github.com/reviewdog/action-eslint
 ```yaml
 steps:
 - uses: actions/checkout@v1
-- uses: step-security/action-cond@v1
+- uses: step-security/action-cond@v1.2.1
   id: reporter
   with:
     cond: ${{ github.event_name == 'pull_request' }}
