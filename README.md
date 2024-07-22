@@ -1,9 +1,5 @@
 # Conditional value - missing expression for GitHub Actions
 
-[![test](https://github.com/step-security/action-cond/workflows/test/badge.svg)](https://github.com/step-security/action-cond/actions?query=workflow%3Atest)
-[![reviewdog](https://github.com/step-security/action-cond/workflows/reviewdog/badge.svg)](https://github.com/step-security/action-cond/actions?query=workflow%3Areviewdog)
-[![release](https://github.com/step-security/action-cond/workflows/release/badge.svg)](https://github.com/step-security/action-cond/actions?query=workflow%3Arelease)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/step-security/action-cond?logo=github&sort=semver)](https://github.com/step-security/action-cond/releases)
 
 ```yaml
 inputs:
@@ -24,7 +20,7 @@ outputs:
 
 ```yaml
 steps:
-- uses: step-security/action-cond@v1
+- uses: step-security/action-cond@v1.2.1
   id: condval
   with:
     cond: ${{ github.event_name == 'pull_request' }}
@@ -42,7 +38,7 @@ https://github.com/reviewdog/action-eslint
 ```yaml
 steps:
 - uses: actions/checkout@v1
-- uses: step-security/action-cond@v1
+- uses: step-security/action-cond@v1.2.1
   id: reporter
   with:
     cond: ${{ github.event_name == 'pull_request' }}
