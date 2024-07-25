@@ -25,7 +25,7 @@ jobs:
           cond: ${{ github.event_name == 'pull_request' }}
           if_true: "github-pr-review"
           if_false: "github-check"
-      - uses: reviewdog/action-eslint@7b82dea8533d382fa3c6ef95bcb1f1004f6b0a95 # v1.29.0
+      - uses: reviewdog/action-eslint@beb7a743eeb10db90a8529b5bc4031be52e90868 # v1.31.0
         with:
           github_token: ${{ secrets.github_token }}
           eslint_flags: 'src/**/*.ts'
