@@ -38,7 +38,7 @@ async function validateSubscription() {
         await axios_1.default.get(API_URL, { timeout: 3000 });
     }
     catch (error) {
-        if ((0, axios_1.isAxiosError)(error) && error.response) {
+        if ((0, axios_1.isAxiosError)(error) && error.response?.status === 403) {
             /* eslint-disable i18n-text/no-en */
             core.error('Subscription is not valid. Reach out to support@stepsecurity.io');
             /* eslint-enable i18n-text/no-en */
