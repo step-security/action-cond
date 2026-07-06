@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/action-cond",
+   "upstream_full_repo_name": "haya14busa/action-cond",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v1.2.5",
+     "created_at": "2026-05-11T04:37:30Z",
+     "published_at": "2026-05-14T01:31:30Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
